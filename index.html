@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE -SLIDER</title>
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="silde_container" >
+      <div style="width: 100%;height: 150px;background-color:rgb(51, 170, 170);position:fixed">
+     <h1 style="text-align: center;bottom:30px;">IMAGE SLIDER WEB PAGE</h1>
+      </div>
+        <div class="silde">
+            <img src="pic1.jpg"   ,alt=" ">
+           <div class="caption" > caption text1</div>
+       </div>
+
+
+       <div class="silde">
+          <img src="pic2.jpg"" " alt=" ">
+          <div class="caption" > caption text2</div>
+        </div>
+
+
+        <div class="silde">
+          <img src="pic3.jpg" alt=" ">
+          <div class="caption" > caption text3</div>
+        </div>
+
+
+      <div class="silde">
+         <img src="pic4.jpg"  alt=" ">
+         <div class="caption" > caption text4</div>
+       </div>
+
+       <span class="arrow prev" onclick="controller(-1)">&#10096;</span>
+       <span  class="arrow next" onclick="controller(1)">&#10097;</span>
+     </div>
+     <div style="width: 100%;height: 400px;background-color:rgb(0, 0, 0);">
+        <img src="pic16.jpg" style="width: 100%;height: 400px;">
+     </div>
+     <script src="script.js"> </script>
+</body>
+</html>

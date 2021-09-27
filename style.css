@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.silde_container{
+    position: relative;
+    width: 100%;
+    
+}
+
+.silde img{
+    width: 100%;
+    height: 80%;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px ;
+    font-size: 25px;
+    border-radius: 45%;
+}
+.next{
+    right:0px;
+}
+.caption{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 10px 0px;
+}
+
+.silde{
+    display: none;
+}
